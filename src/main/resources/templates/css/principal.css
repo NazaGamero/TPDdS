@@ -1,0 +1,39 @@
+body { 
+    padding-top: 80px; 
+}
+#main_container {
+    opacity: 1;
+    transition: 1s opacity;
+}
+#main_container.fade-out {
+    opacity: 0;
+    transition: none;
+}
+        
+tr.group:hover td,
+tr.group td {
+    background-color: #3a3d44!important
+}
+td.dataTables_empty {
+    cursor: auto !important;
+}
+table.dataTable thead th, table.dataTable thead td {
+    padding-left: 9px !important;
+}
+.dataTables_filter {
+    padding-left: 9px !important;
+    float: left !important;
+}
+.dataTables_length {
+    float: right !important;
+}
+.dt_toolbar_table_puntos {
+    float: right;
+}
+.dt_toolbar_table_HU {
+    float: right;
+}
+.form-inline > * {
+    margin:5px 3px;
+ }
+

@@ -1,0 +1,244 @@
+.navbar.fixed-right {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1030;
+}
+.navbar.fixed-right {
+    bottom: 0;
+    width: 155px;
+    padding: .8rem 0.5rem;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+}
+.navbar.fixed-right .navbar-collapse {
+    flex-grow: 0;
+    flex-direction: column;
+    width: 100%;
+}
+.navbar.fixed-right .navbar-collapse .navbar-nav {
+    flex-direction: column;
+    width: 100%;
+}
+.navbar.fixed-right .navbar-collapse .navbar-nav .nav-item {
+    width: 100%;
+}
+.navbar.fixed-right .navbar-collapse .navbar-nav .nav-item .dropdown-menu {
+    top: 0;
+}
+.navbar.fixed-right {
+    left: auto;
+}
+.navbar.fixed-right .navbar-nav .nav-item .dropdown-menu {
+    left: -1%;
+    top: 105% !important;
+    right: 100%;
+    min-width: 7.8rem;
+}
+.navbar.fixed-right .navbar-nav .nav-item .dropdown-menu .dropdown-item {
+    padding: .25rem 0.6rem;
+}
+
+#main_container {
+    opacity: 1;
+    transition: 1s opacity;
+}
+#main_container.fade-out {
+    opacity: 0;
+    transition: none;
+}
+
+.multiselect-custom {
+    color: #fff !important;
+    background-color: #434857 !important;
+    border: 1px solid #ced4da !important;
+}
+
+.multiselect-custom.disabled {
+  color: #9E9E9E !important;
+  background-color: #434857 !important;
+  border: 1px solid #434857 !important;
+}
+
+.bootstrap-select.disabled {
+  color: #9E9E9E !important;
+  background-color: #434857 !important;
+  /* border: 1px solid #434857 !important; */
+}
+
+.bootstrap-select .dropdown-menu {
+    color: #fff !important;
+    background-color: #434857 !important;
+    border: 1px solid #ced4da !important;
+    border-radius: 0px !important;
+    padding: 0px !important;
+}
+
+.bootstrap-select .dropdown-menu .dropdown-header {
+    color: #9E9E9E !important;
+    padding: 0px !important;
+    padding-left: 0.5rem !important;
+}
+
+.bootstrap-select .dropdown-menu .dropdown-item {
+    padding: 0px !important;
+    padding-left: 1.25em !important;
+}
+
+.bootstrap-select .dropdown-menu li.disabled a {
+  color: #9E9E9E !important;
+}
+
+.bs-searchbox {
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+    padding-left: 4px !important;
+    padding-right: 4px !important;
+}
+
+.bootstrap-select.show-tick .dropdown-menu li a span.text {
+    /* margin-right: 15px !important; */
+}
+
+.bootstrap-select .dropdown-menu .notify {
+    color: #000!important;
+    font-weight: bold !important;
+    background-color: #ffc107!important;
+    border: 1px solid #ced4da !important;
+    margin-left: 0px !important;
+    padding-bottom: 0px !important;
+    bottom: 0px !important;
+}
+
+.bootstrap-select .no-results {
+    color: #000!important;
+    font-weight: bold !important;
+    background-color: #ffc107!important;
+    border: 1px solid #ced4da !important;
+    margin : 0px !important;
+    /* margin-left: 0px !important;
+    padding-bottom: 0px !important;
+    bottom: 0px !important; */
+}
+
+#btn_dt_range {
+    cursor: pointer;
+}
+
+ /* .daterangepicker, .daterangepicker td.active:hover {
+  background-color:#555a67 !important;
+} */
+
+/*.daterangepicker .ranges li.active {
+    background-color: #007bff !important;
+
+} */
+.daterangepicker .calendar-table .next span, .daterangepicker .calendar-table .prev span {
+  border-top-color: white;
+  border-right-color: white;
+  border-bottom-color: white;
+  border-left-color: white;
+  
+}
+
+.daterangepicker .btn:hover {
+  color: white;
+}
+
+.daterangepicker td.available:hover, .daterangepicker th.available:hover {
+  background-color:#555a67;
+	border-color: transparent;
+	color: inherit;
+}
+
+/* Darker Daterange Picker */
+.daterangepicker .ranges li:hover {
+    background-color:#555a67;
+}
+
+.daterangepicker .ranges li.active {
+    background-color:#007bff;
+}
+
+.daterangepicker .ranges li.active:hover {
+    background-color:#007bff;
+}
+
+.daterangepicker td.off, .daterangepicker td.off.in-range, .daterangepicker td.off.start-date, .daterangepicker td.off.end-date {
+  background-color: transparent;
+  color: rgba(200,200,200,0.5);
+}
+.daterangepicker {
+  background-color: #434857;
+  color: #ebf4f0;
+}
+
+.daterangepicker .calendar-table {
+  background-color: transparent;
+  border: 1px solid #434857;
+}
+
+.datepicker.dropdown-menu table  {
+  background-color: transparent;
+}
+
+.daterangepicker td.active, .daterangepicker td.active:hover {
+  background-color: #007bff;
+  color: #ebf4f8;
+}
+.daterangepicker td.in-range {
+  background-color: rgba(37,47,57,0.9);
+  color: #ebf4f8;
+}
+.btn-success {
+  color: #fff;
+  background-color: inherit;
+  border-color: rgba(5,150,1,0.8);
+}
+.btn-success.disabled, .btn-success[disabled], fieldset[disabled] .btn-success, .btn-success.disabled:hover, .btn-success[disabled]:hover, fieldset[disabled] .btn-success:hover, .btn-success.disabled:focus, .btn-success[disabled]:focus, fieldset[disabled] .btn-success:focus, .btn-success.disabled.focus, .btn-success[disabled].focus, fieldset[disabled] .btn-success.focus, .btn-success.disabled:active, .btn-success[disabled]:active, fieldset[disabled] .btn-success:active, .btn-success.disabled.active, .btn-success[disabled].active, fieldset[disabled] .btn-success.active {
+  color: #fff;
+  background-color: inherit;
+  border-color: rgba(5,150,1,0.1);
+}
+.btn-default {
+  color: #fff;
+  background-color: inherit;
+  border-color: rgba(255,255,255,0.6);
+}
+.daterangepicker select.monthselect {
+  color: rgba(37,47,57,0.9);
+}
+.daterangepicker select.yearselect {
+  color: rgba(37,47,57,0.9);
+}
+.daterangepicker .input-mini {
+  color: #ebf4f8;
+}
+
+.daterangepicker .applyBtn {
+    background-color:#007bff;
+}
+
+.select-custom {
+
+}
+
+@media (min-width: 768px) { 
+  .select-custom {
+    min-width: 250px; 
+    max-width: 300px;
+  }
+}
+
+
+.custom-button-hide {
+  
+  display: none !important;
+}
+
+@media (min-width: 850px) { 
+  .custom-button-hide {
+    display: block !important;
+  }
+}

@@ -1,0 +1,1 @@
+web: java -jar target/dds-grupo3-0.0.1-SNAPSHOT.jar
